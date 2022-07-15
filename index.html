@@ -156,7 +156,7 @@
               </div>
               <!--Experience end-->
 
-              <a href="/CV-English.pdf" target="_blank" class="btn">download cv</a>
+              <a href="/CV-English.pdf" target="_blank" class="btn">download CV</a>
               <a href="#contact" class="btn link-item">contact me</a>
             </div>
           </div>
@@ -174,24 +174,22 @@
           </div>
           <div class="row">
             <div class="contact-form">
-              <form>
-                <div class="row">
-                  <div class="input-group">
-                    <input type="text" placeholder="Name" class="input-control" required>
-                  </div>
-                  <div class="input-group">
-                    <input type="text" placeholder="Email" class="input-control" required>
-                  </div>
-                  <div class="input-group">
-                    <input type="text" placeholder="Subject" class="input-control" required>
-                  </div>
-                  <div class="input-group">
-                    <textarea placeholder="Message" class="input-control" required></textarea></div></form>
-                  </div>
-                  <div class="submit-btn">
-                    <button type="submit" class="btn">send message</button>
-                  </div>
-                </div>
+              <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" />
+                </p>
+                <p>
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" />
+                </p>
+                <p>
+                  <label for="message">Message</label>
+                  <textarea type="text" id="message" name="message"></textarea>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
               </form>
               <div class="contact-info">
                 <div class="contact-info-item">
