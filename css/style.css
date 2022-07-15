@@ -578,7 +578,6 @@ Home section
 }
 
 .contact-form .input-group{
-    background-color: #3a09ff;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -587,6 +586,7 @@ Home section
     color: var(--blue-dark);
     opacity: 0.8;
     font-weight: 300;
+   
 }
 
 
@@ -617,7 +617,6 @@ Home section
 }
 
 .contact-info-item{
-    background-color: red;
     margin: 0 0 30px;
     padding: 0 0 0 120px;
 }
